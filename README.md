@@ -51,6 +51,18 @@ These summary tables can be used for reporting, analytics, or integration with P
 
    ## Data Flow
 
-The following diagram illustrates the flow of data in the Smart Data Manager project:
+The following diagram illustrates the flow of data in the ETL pipeline:
+
+SQL Server Tables
+     │
+     ▼
+ETL Script (Python)
+     │ Extract → Transform → Load
+     ▼
+Summary Tables in SQL Server
+     │
+     ▼
+Power BI / Power Apps / Reports
+
 
 
