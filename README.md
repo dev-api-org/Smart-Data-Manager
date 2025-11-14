@@ -53,16 +53,11 @@ These summary tables can be used for reporting, analytics, or integration with P
 
 The following diagram illustrates the flow of data in the ETL pipeline:
 
-SQL Server Tables
-     │
-     ▼
-ETL Script (Python)
-     │ Extract → Transform → Load
-     ▼
-Summary Tables in SQL Server
-     │
-     ▼
-Power BI / Power Apps / Reports
+flowchart TD
+    A[SQL Server Tables] --> B[ETL Script (Python)\nExtract → Transform → Load]
+    B --> C[Summary Tables in SQL Server]
+    C --> D[Power BI / Power Apps / Reports]
+
 
 
 
