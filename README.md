@@ -48,3 +48,9 @@ These summary tables can be used for reporting, analytics, or integration with P
    ```bash
    git clone <your-repo-url>
    cd <repo-folder>
+
+   ## Data Flow
+
+The following diagram illustrates the flow of data in the Smart Data Manager project:
+
+
